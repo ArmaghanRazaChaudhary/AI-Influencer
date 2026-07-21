@@ -346,7 +346,7 @@ def handoff_json(e: dict[str, object]) -> str:
             "tiktok": {"status": "not_linked", "account_id": None},
             "youtube": {"status": "not_linked", "account_id": None},
         },
-        "created_by": "Codex",
+        "created_by": "persona-factory",
         "created_at": "2026-06-04",
     }
     return json.dumps(data, indent=2) + "\n"

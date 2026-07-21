@@ -9,7 +9,7 @@ Full pipeline per run:
   3. Animate into a short video (Higgsfield)
   4. Post-process with ffmpeg (grain/sharpness/brightness/vignette)
   5. Strip metadata (exiftool)
-  6. Generate caption in persona's voice (Claude)
+  6. Generate caption in persona's voice (Anthropic)
   7. Post to X + Instagram
   8. Record to SQLite
 """

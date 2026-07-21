@@ -27,7 +27,7 @@ Approved handoff package → (external) SNS Orchestrator
 | **Content director** | Decides today’s scene / mood / prompt from the package |
 | **Image generation** | Face-consistent stills via OpenAI `gpt-image-1` (configurable backend) |
 | **Video (optional)** | Animate stills with Higgsfield; ffmpeg post-process + metadata strip |
-| **Captions** | Claude / Anthropic in the persona’s voice |
+| **Captions** | Anthropic in the persona’s voice |
 | **Dashboard UI** | Browse personas and factory output (`dashboard/`) |
 | **SQLite job log** | Track generation jobs locally |
 
@@ -101,7 +101,6 @@ AI-Influencer/
 ├── scripts/                # Factory / batch utilities
 ├── config/
 ├── docs/API_AND_HOSTING.md # Integration notes for downstream systems
-├── AGENTS.md / CLAUDE.md   # Architecture context for agents
 ├── .env.example
 └── requirements.txt
 ```

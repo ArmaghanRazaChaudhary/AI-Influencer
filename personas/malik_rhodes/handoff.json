@@ -1,4 +1,4 @@
-﻿{
+{
   "persona_id": "malik_rhodes",
   "version": "0.1.0",
   "line": "N",
@@ -25,6 +25,6 @@
       "account_id": null
     }
   },
-  "created_by": "Codex",
+  "created_by": "persona-factory",
   "created_at": "2026-06-04"
 }

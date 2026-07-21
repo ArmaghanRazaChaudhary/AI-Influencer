@@ -13,7 +13,7 @@ AI Influencer product produces and hands off downstream.
 | `visual.md` | Face refs, body/style rules, banned drift, seed/LoRA/reference method. Face is locked by **Flux 2 + LoRA** (not gpt-image-1, not ChatGPT). | 2 |
 | `memory_boundaries.md` | What the persona can remember, disclose, refuse, escalate | 1 |
 | `content_backlog.md` | post id · asset · caption · platform fit · CTA · risk note | ongoing |
-| `brain.md` | DM brain — per-subscriber memory, the "heart". Cron polls inbox → loads brain.md → Claude replies → writes facts back. | 3 |
+| `brain.md` | DM brain — per-subscriber memory, the "heart". Cron polls inbox → loads brain.md → the LLM replies → writes facts back. | 3 |
 | `handoff.json` | Machine-readable: persona id, version, assets, approval state, destinations | on handoff |
 
 ## Acceptance gate (spec §7 — evidence, not "we made prompts")

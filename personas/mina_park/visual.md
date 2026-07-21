@@ -3,7 +3,7 @@
 > Face refs, body/style rules, banned drift, and generation method.
 
 ## Face lock - method
-- **Current method:** Codex built-in image generation for first reference face
+- **Current method:** API image generation for first reference face
 - **Reference face:** `assets/faces/mina_park/face_reference.png`
 - **Future lock:** if long-run continuity is required, train a dedicated LoRA or equivalent identity model from curated references
 - **Acceptance target:** image 1 and image 847 should read as the same person before this persona is scaled

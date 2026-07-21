@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 """
-Caption and hashtag generation via Claude API.
+Caption and hashtag generation via Anthropic API.
 Generates platform-native captions tuned to the persona's voice and engagement triggers.
 """
 
