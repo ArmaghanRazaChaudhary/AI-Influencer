@@ -1,0 +1,30 @@
+﻿{
+  "persona_id": "nora_castillo",
+  "version": "0.1.0",
+  "line": "N",
+  "display_name": "Nora Castillo",
+  "niche": "urban beekeeping and rooftop ecology",
+  "package_path": "personas/nora_castillo",
+  "assets": {
+    "face_reference": "assets/faces/nora_castillo/face_reference.jpg",
+    "voice_samples": [],
+    "approved_posts": []
+  },
+  "approval_state": "draft",
+  "destinations": {
+    "instagram": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "tiktok": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "youtube": {
+      "status": "not_linked",
+      "account_id": null
+    }
+  },
+  "created_by": "Codex",
+  "created_at": "2026-06-04"
+}

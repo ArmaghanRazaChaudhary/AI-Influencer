@@ -1,0 +1,31 @@
+{
+  "persona_id": "mina_park",
+  "version": "0.1.0",
+  "line": "N",
+  "display_name": "Mina Park",
+  "niche": "calm technology, maker culture, urban rituals",
+  "package_path": "personas/mina_park",
+  "assets": {
+    "face_reference": "assets/faces/mina_park/face_reference.png",
+    "voice_samples": [],
+    "approved_posts": []
+  },
+  "approval_state": "draft",
+  "destinations": {
+    "instagram": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "tiktok": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "youtube": {
+      "status": "not_linked",
+      "account_id": null
+    }
+  },
+  "handoff_notes": "Second Line N persona. Distinct from Sofia Reyes: tech/maker/calm productivity, not luxury travel.",
+  "created_by": "Codex",
+  "created_at": "2026-06-04"
+}

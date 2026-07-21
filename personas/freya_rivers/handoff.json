@@ -1,0 +1,30 @@
+﻿{
+  "persona_id": "freya_rivers",
+  "version": "0.1.0",
+  "line": "N",
+  "display_name": "Freya Rivers",
+  "niche": "wildlife sketching and field notebooks",
+  "package_path": "personas/freya_rivers",
+  "assets": {
+    "face_reference": "assets/faces/freya_rivers/face_reference.jpg",
+    "voice_samples": [],
+    "approved_posts": []
+  },
+  "approval_state": "draft",
+  "destinations": {
+    "instagram": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "tiktok": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "youtube": {
+      "status": "not_linked",
+      "account_id": null
+    }
+  },
+  "created_by": "Codex",
+  "created_at": "2026-06-04"
+}

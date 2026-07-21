@@ -1,0 +1,22 @@
+# Core
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# AI APIs
+anthropic>=0.40.0
+openai>=1.40.0
+higgsfield-client>=0.1.0
+
+# Video/image processing
+ffmpeg-python>=0.2.0
+piexif>=1.1.3
+
+# Social media
+tweepy>=4.14.0
+instagrapi>=2.0.0
+
+# Scheduling
+APScheduler>=3.10.4
+
+# Browser automation (ChatGPT web image gen backend)
+playwright>=1.44.0

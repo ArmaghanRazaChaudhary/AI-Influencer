@@ -1,0 +1,30 @@
+﻿{
+  "persona_id": "theo_palmer",
+  "version": "0.1.0",
+  "line": "N",
+  "display_name": "Theo Palmer",
+  "niche": "wildlife sketching and field notebooks",
+  "package_path": "personas/theo_palmer",
+  "assets": {
+    "face_reference": "assets/faces/theo_palmer/face_reference.jpg",
+    "voice_samples": [],
+    "approved_posts": []
+  },
+  "approval_state": "draft",
+  "destinations": {
+    "instagram": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "tiktok": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "youtube": {
+      "status": "not_linked",
+      "account_id": null
+    }
+  },
+  "created_by": "Codex",
+  "created_at": "2026-06-04"
+}

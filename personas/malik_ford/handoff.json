@@ -1,0 +1,30 @@
+﻿{
+  "persona_id": "malik_ford",
+  "version": "0.1.0",
+  "line": "N",
+  "display_name": "Malik Ford",
+  "niche": "classic cars, restoration, and blue-collar entrepreneurship",
+  "package_path": "personas/malik_ford",
+  "assets": {
+    "face_reference": "assets/faces/malik_ford/face_reference.jpg",
+    "voice_samples": [],
+    "approved_posts": []
+  },
+  "approval_state": "draft",
+  "destinations": {
+    "instagram": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "tiktok": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "youtube": {
+      "status": "not_linked",
+      "account_id": null
+    }
+  },
+  "created_by": "Codex",
+  "created_at": "2026-06-04"
+}

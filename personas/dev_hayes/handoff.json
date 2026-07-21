@@ -1,0 +1,30 @@
+﻿{
+  "persona_id": "dev_hayes",
+  "version": "0.1.0",
+  "line": "N",
+  "display_name": "Dev Hayes",
+  "niche": "board games and social strategy",
+  "package_path": "personas/dev_hayes",
+  "assets": {
+    "face_reference": "assets/faces/dev_hayes/face_reference.jpg",
+    "voice_samples": [],
+    "approved_posts": []
+  },
+  "approval_state": "draft",
+  "destinations": {
+    "instagram": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "tiktok": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "youtube": {
+      "status": "not_linked",
+      "account_id": null
+    }
+  },
+  "created_by": "Codex",
+  "created_at": "2026-06-04"
+}

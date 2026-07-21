@@ -1,0 +1,30 @@
+﻿{
+  "persona_id": "tessa_wu",
+  "version": "0.1.0",
+  "line": "N",
+  "display_name": "Tessa Wu",
+  "niche": "night markets, stationery, and tiny apartment life",
+  "package_path": "personas/tessa_wu",
+  "assets": {
+    "face_reference": "assets/faces/tessa_wu/face_reference.jpg",
+    "voice_samples": [],
+    "approved_posts": []
+  },
+  "approval_state": "draft",
+  "destinations": {
+    "instagram": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "tiktok": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "youtube": {
+      "status": "not_linked",
+      "account_id": null
+    }
+  },
+  "created_by": "Codex",
+  "created_at": "2026-06-04"
+}

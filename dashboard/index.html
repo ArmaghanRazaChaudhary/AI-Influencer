@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Influencer Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">AI</div>
+      <div>
+        <h1>Influencer OS</h1>
+        <p>Persona factory dashboard</p>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="#influencers">Influencers</a>
+      <a href="#create-influencer">Create Influencer</a>
+      <a href="#create-post">Create Post</a>
+      <a href="#posts">Post Drafts</a>
+    </nav>
+
+    <div class="sidebar-note">
+      <strong>Prototype mode</strong>
+      <span>New influencers and posts save in this browser via localStorage.</span>
+    </div>
+  </aside>
+
+  <main class="shell">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Upstream identity and content engine</p>
+        <h2>Manage personas, reference faces, and draft posts.</h2>
+      </div>
+      <div class="hero-actions">
+        <button class="primary" id="scrollCreatePost">Create post</button>
+        <button class="secondary" id="resetDemo">Reset local data</button>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="stat">
+        <span id="statInfluencers">0</span>
+        <p>Influencers</p>
+      </div>
+      <div class="stat">
+        <span id="statPosts">0</span>
+        <p>Draft posts</p>
+      </div>
+      <div class="stat">
+        <span id="statLines">0</span>
+        <p>Active lines</p>
+      </div>
+      <div class="stat">
+        <span id="statLocal">0</span>
+        <p>Locally added</p>
+      </div>
+    </section>
+
+    <section class="panel" id="influencers">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Function 2</p>
+          <h3>Get all or specific influencers</h3>
+        </div>
+        <div class="filters">
+          <input id="search" type="search" placeholder="Search name, niche, city">
+          <select id="lineFilter" aria-label="Filter by line">
+            <option value="">All lines</option>
+          </select>
+        </div>
+      </div>
+      <div class="grid" id="influencerGrid"></div>
+    </section>
+
+    <section class="split" id="create-influencer">
+      <form class="panel form-panel" id="createInfluencerForm">
+        <div class="panel-head compact">
+          <div>
+            <p class="eyebrow">Function 1</p>
+            <h3>Create Influencer</h3>
+          </div>
+        </div>
+        <label>Name <input name="display_name" required placeholder="Nova Chen"></label>
+        <label>Niche <input name="niche" required placeholder="AI music production"></label>
+        <div class="two">
+          <label>Age <input name="age" type="number" min="18" value="28"></label>
+          <label>Gender <input name="gender" placeholder="female / male / nonbinary"></label>
+        </div>
+        <label>Home base <input name="home_base" placeholder="Toronto, Canada"></label>
+        <label>Demography <input name="demography" placeholder="Chinese-Canadian"></label>
+        <label>Contradiction <textarea name="contradiction" rows="3" placeholder="Public calm vs private obsession"></textarea></label>
+        <label>Signature detail <input name="signature_detail" placeholder="silver ring, small scar, charm"></label>
+        <label>Face image URL <input name="face_reference" placeholder="https://...jpg"></label>
+        <button class="primary" type="submit">Create influencer</button>
+      </form>
+
+      <div id="create-post"></div>
+      <form class="panel form-panel" id="createPostForm">
+        <div class="panel-head compact">
+          <div>
+            <p class="eyebrow">Function 3</p>
+            <h3>Create a Post</h3>
+          </div>
+        </div>
+        <label>Influencer
+          <select name="persona_id" id="postInfluencerSelect" required></select>
+        </label>
+        <label>Platform
+          <select name="platform">
+            <option>instagram</option>
+            <option>tiktok</option>
+            <option>youtube</option>
+            <option>x</option>
+          </select>
+        </label>
+        <label>Post image URL <input name="image_path" placeholder="https://...jpg or local preview path"></label>
+        <label>Content / caption <textarea name="caption" rows="6" required placeholder="Write the post content here..."></textarea></label>
+        <button class="primary" type="submit">Create post draft</button>
+      </form>
+    </section>
+
+    <section class="panel" id="posts">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Draft package</p>
+          <h3>Created posts</h3>
+        </div>
+      </div>
+      <div class="post-list" id="postList"></div>
+    </section>
+  </main>
+
+  <template id="cardTemplate">
+    <article class="card">
+      <img class="face" alt="">
+      <div class="card-body">
+        <div class="card-title-row">
+          <h4></h4>
+          <span class="badge"></span>
+        </div>
+        <p class="muted"></p>
+        <p class="niche"></p>
+        <button class="mini">Use for post</button>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

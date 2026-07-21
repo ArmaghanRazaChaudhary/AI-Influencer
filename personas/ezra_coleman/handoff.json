@@ -1,0 +1,30 @@
+﻿{
+  "persona_id": "ezra_coleman",
+  "version": "0.1.0",
+  "line": "N",
+  "display_name": "Ezra Coleman",
+  "niche": "language learning and immigrant humor",
+  "package_path": "personas/ezra_coleman",
+  "assets": {
+    "face_reference": "assets/faces/ezra_coleman/face_reference.jpg",
+    "voice_samples": [],
+    "approved_posts": []
+  },
+  "approval_state": "draft",
+  "destinations": {
+    "instagram": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "tiktok": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "youtube": {
+      "status": "not_linked",
+      "account_id": null
+    }
+  },
+  "created_by": "Codex",
+  "created_at": "2026-06-04"
+}

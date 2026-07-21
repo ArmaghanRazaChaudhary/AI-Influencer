@@ -1,0 +1,30 @@
+﻿{
+  "persona_id": "omar_el_sayed",
+  "version": "0.1.0",
+  "line": "N",
+  "display_name": "Omar El-Sayed",
+  "niche": "ancient history, modern Cairo, and museum storytelling",
+  "package_path": "personas/omar_el_sayed",
+  "assets": {
+    "face_reference": "assets/faces/omar_el_sayed/face_reference.jpg",
+    "voice_samples": [],
+    "approved_posts": []
+  },
+  "approval_state": "draft",
+  "destinations": {
+    "instagram": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "tiktok": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "youtube": {
+      "status": "not_linked",
+      "account_id": null
+    }
+  },
+  "created_by": "Codex",
+  "created_at": "2026-06-04"
+}

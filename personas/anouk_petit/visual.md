@@ -1,0 +1,26 @@
+﻿# visual.md - Anouk Petit
+
+> Face refs, body/style rules, banned drift, and generation method.
+
+## Face lock - method
+- **Current reference:** `_pending_`
+- **Future reference path:** `assets/faces/anouk_petit/face_reference.jpg`
+- **Continuity target:** post 1 and post 847 should read as the same person before scale-up.
+
+## Visual identity
+- Age: 27
+- Gender presentation: female
+- Demography: French-Canadian
+- Style world: chef whites, cardigans, flour, tiled cafes
+- Recurring locations: Montreal bakeries; markets; snowy sidewalks; cafe counters
+- Signature detail: thin burn line on her right wrist from caramel
+
+## Banned drift
+- Do not copy Sofia Reyes or Mina Park
+- Do not turn the persona into a generic beauty, fitness, travel, or stock-photo model
+- Avoid adult/suggestive framing
+- Avoid plastic skin, warped hands, unreadable fake logos, and inconsistent age/gender presentation
+- Keep the style tied to the niche: pastry, cafe culture, and small business diaries
+
+## Continuity review
+Each generated image should be checked against visual identity, signature detail, age/gender presentation, and niche fit.

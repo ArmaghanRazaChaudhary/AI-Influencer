@@ -1,0 +1,30 @@
+﻿{
+  "persona_id": "nia_sol",
+  "version": "0.1.0",
+  "line": "N",
+  "display_name": "Nia Sol",
+  "niche": "surf mornings, island music, and climate-conscious living",
+  "package_path": "personas/nia_sol",
+  "assets": {
+    "face_reference": "assets/faces/nia_sol/face_reference.jpg",
+    "voice_samples": [],
+    "approved_posts": []
+  },
+  "approval_state": "draft",
+  "destinations": {
+    "instagram": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "tiktok": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "youtube": {
+      "status": "not_linked",
+      "account_id": null
+    }
+  },
+  "created_by": "Codex",
+  "created_at": "2026-06-04"
+}

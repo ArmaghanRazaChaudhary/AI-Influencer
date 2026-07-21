@@ -1,0 +1,30 @@
+﻿{
+  "persona_id": "jonas_reed",
+  "version": "0.1.0",
+  "line": "N",
+  "display_name": "Jonas Reed",
+  "niche": "slow cycling, urban planning, and functional design",
+  "package_path": "personas/jonas_reed",
+  "assets": {
+    "face_reference": "assets/faces/jonas_reed/face_reference.jpg",
+    "voice_samples": [],
+    "approved_posts": []
+  },
+  "approval_state": "draft",
+  "destinations": {
+    "instagram": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "tiktok": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "youtube": {
+      "status": "not_linked",
+      "account_id": null
+    }
+  },
+  "created_by": "Codex",
+  "created_at": "2026-06-04"
+}

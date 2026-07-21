@@ -1,0 +1,30 @@
+﻿{
+  "persona_id": "eli_navarro",
+  "version": "0.1.0",
+  "line": "N",
+  "display_name": "Eli Navarro",
+  "niche": "home audio and vinyl listening rooms",
+  "package_path": "personas/eli_navarro",
+  "assets": {
+    "face_reference": "assets/faces/eli_navarro/face_reference.jpg",
+    "voice_samples": [],
+    "approved_posts": []
+  },
+  "approval_state": "draft",
+  "destinations": {
+    "instagram": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "tiktok": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "youtube": {
+      "status": "not_linked",
+      "account_id": null
+    }
+  },
+  "created_by": "Codex",
+  "created_at": "2026-06-04"
+}

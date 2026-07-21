@@ -1,0 +1,30 @@
+﻿{
+  "persona_id": "iris_morel",
+  "version": "0.1.0",
+  "line": "N",
+  "display_name": "Iris Morel",
+  "niche": "minimal parenting and toy rotation",
+  "package_path": "personas/iris_morel",
+  "assets": {
+    "face_reference": "assets/faces/iris_morel/face_reference.jpg",
+    "voice_samples": [],
+    "approved_posts": []
+  },
+  "approval_state": "draft",
+  "destinations": {
+    "instagram": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "tiktok": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "youtube": {
+      "status": "not_linked",
+      "account_id": null
+    }
+  },
+  "created_by": "Codex",
+  "created_at": "2026-06-04"
+}

@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sofia Reyes - Instagram Post Preview</title>
+  <style>
+    :root {
+      --bg: #f5f5f5;
+      --card: #ffffff;
+      --text: #1f1f1f;
+      --muted: #737373;
+      --line: #dbdbdb;
+      --accent: #c28c5b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: rgba(255, 255, 255, 0.94);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(10px);
+    }
+
+    .topbar-inner {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    main {
+      max-width: 700px;
+      margin: 28px auto 48px;
+      padding: 0 14px;
+    }
+
+    .post {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 26px;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.04);
+    }
+
+    .post-header {
+      height: 58px;
+      padding: 10px 14px;
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .avatar {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--accent);
+      flex: 0 0 auto;
+    }
+
+    .profile {
+      min-width: 0;
+      line-height: 1.2;
+    }
+
+    .handle {
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .location {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 3px;
+    }
+
+    .dots {
+      margin-left: auto;
+      color: var(--muted);
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    .post-image {
+      display: block;
+      width: 100%;
+      max-height: 840px;
+      object-fit: cover;
+      background: #eee;
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 13px 14px 8px;
+      font-size: 23px;
+      line-height: 1;
+    }
+
+    .actions .save {
+      margin-left: auto;
+    }
+
+    .caption {
+      padding: 0 14px 16px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .caption p {
+      margin: 10px 0;
+    }
+
+    .caption strong {
+      margin-right: 5px;
+    }
+
+    .hashtags {
+      color: #385185;
+      overflow-wrap: anywhere;
+    }
+
+    .date {
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-top: 12px;
+    }
+
+    @media (max-width: 560px) {
+      .topbar-inner {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 3px;
+      }
+
+      main {
+        margin-top: 14px;
+        padding: 0;
+      }
+
+      .post {
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+        margin-bottom: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">Sofia Reyes</div>
+      <div class="meta">13 Instagram-style draft posts</div>
+    </div>
+  </header>
+
+  <main>
+    <article class="post">
+      <header class="post-header">
+        <img class="avatar" src="assets/faces/Sofia/sofia_001_miami_sunrise_balcony.png" alt="Sofia Reyes avatar">
+        <div class="profile">
+          <div class="handle">sofia.reyes</div>
+          <div class="location">Miami, Florida</div>
+        </div>
+        <div class="dots">...</div>
+      </header>
+      <img class="post-image" src="assets/faces/Sofia/sofia_001_miami_sunrise_balcony.png" alt="Sofia on a Miami sunrise balcony">
+      <div class="actions"><span>♡</span><span>💬</span><span>↗</span><span class="save">▢</span></div>
+      <div class="caption">
+        <p><strong>sofia.reyes</strong>Miami woke up soft today.</p>
+        <p>Coffee before emails, water turning gold, and one tiny moment where I pretended my calendar was not already color-coded.</p>
+        <p>Honestly, this is the version of discipline I can get behind.</p>
+        <p>Are you a sunrise person or a late checkout person?</p>
+        <p class="hashtags">#MiamiStyle #LuxuryTravel #TravelLifestyle #MiamiMorning #HotelLife #SoftLuxury #TravelDiary #WomenWhoTravel #QuietLuxury #CreatorLife #SofiaReyes #MorningRoutine</p>
+        <div class="date">Draft post sof-001</div>
+      </div>
+    </article>
+
+    <article class="post">
+      <header class="post-header">
+        <img class="avatar" src="assets/faces/Sofia/sofia_002_paris_cafe_morning.png" alt="Sofia Reyes avatar">
+        <div class="profile"><div class="handle">sofia.reyes</div><div class="location">Paris, France</div></div>
+        <div class="dots">...</div>
+      </header>
+      <img class="post-image" src="assets/faces/Sofia/sofia_002_paris_cafe_morning.png" alt="Sofia at a Paris cafe">
+      <div class="actions"><span>♡</span><span>💬</span><span>↗</span><span class="save">▢</span></div>
+      <div class="caption">
+        <p><strong>sofia.reyes</strong>Paris before the tables fill up is the whole point.</p>
+        <p>Espresso, a notebook, and a street quiet enough to hear the cups touch the saucers. I did plan this cafe three days ago, but we can all agree to call it spontaneous.</p>
+        <p>Would you wake up early for the empty view or sleep in for the late checkout?</p>
+        <p class="hashtags">#ParisCafe #ParisMorning #LuxuryTravel #TravelDiary #CafeCulture #WomenWhoTravel #QuietLuxury #SoftLuxury #ParisStyle #TravelInspo #SofiaReyes #WorthIt</p>
+        <div class="date">Draft post sof-002</div>
+      </div>
+    </article>
+
+    <article class="post">
+      <header class="post-header">
+        <img class="avatar" src="assets/faces/Sofia/sofia_003_amalfi_lemon_lane.png" alt="Sofia Reyes avatar">
+        <div class="profile"><div class="handle">sofia.reyes</div><div class="location">Amalfi Coast, Italy</div></div>
+        <div class="dots">...</div>
+      </header>
+      <img class="post-image" src="assets/faces/Sofia/sofia_003_amalfi_lemon_lane.png" alt="Sofia walking through an Amalfi lemon lane">
+      <div class="actions"><span>♡</span><span>💬</span><span>↗</span><span class="save">▢</span></div>
+      <div class="caption">
+        <p><strong>sofia.reyes</strong>Amalfi smells like lemons, warm stone, and tiny financial decisions.</p>
+        <p>I came for the sea view and stayed for the lanes that make you earn it. The stairs are rude. The light is persuasive.</p>
+        <p>Would you do the climb for this view, or is that where you draw the line?</p>
+        <p class="hashtags">#AmalfiCoast #ItalyTravel #LuxuryTravel #LemonLane #TravelDiary #WomenWhoTravel #MediterraneanStyle #SoftLuxury #QuietLuxury #TravelItaly #SofiaReyes #WorthTheView</p>
+        <div class="date">Draft post sof-003</div>
+      </div>
+    </article>
+
+    <article class="post">
+      <header class="post-header">
+        <img class="avatar" src="assets/faces/Sofia/sofia_004_santorini_terrace_reading.png" alt="Sofia Reyes avatar">
+        <div class="profile"><div class="handle">sofia.reyes</div><div class="location">Santorini, Greece</div></div>
+        <div class="dots">...</div>
+      </header>
+      <img class="post-image" src="assets/faces/Sofia/sofia_004_santorini_terrace_reading.png" alt="Sofia reading on a Santorini terrace">
+      <div class="actions"><span>♡</span><span>💬</span><span>↗</span><span class="save">▢</span></div>
+      <div class="caption">
+        <p><strong>sofia.reyes</strong>Santorini is dramatic in a way I respect.</p>
+        <p>Blue railings, cold coffee, a book I packed because it matched the mood, and a view doing absolutely all the work.</p>
+        <p>Pool view or little town walk after this?</p>
+        <p class="hashtags">#Santorini #GreeceTravel #LuxuryTravel #TravelDiary #IslandLife #QuietLuxury #SoftLuxury #WomenWhoTravel #MediterraneanTravel #BookAndCoffee #SofiaReyes #TravelMood</p>
+        <div class="date">Draft post sof-004</div>
+      </div>
+    </article>
+
+    <article class="post">
+      <header class="post-header">
+        <img class="avatar" src="assets/faces/Sofia/sofia_005_dubai_hotel_lobby.png" alt="Sofia Reyes avatar">
+        <div class="profile"><div class="handle">sofia.reyes</div><div class="location">Dubai, UAE</div></div>
+        <div class="dots">...</div>
+      </header>
+      <img class="post-image" src="assets/faces/Sofia/sofia_005_dubai_hotel_lobby.png" alt="Sofia arriving at a Dubai hotel lobby">
+      <div class="actions"><span>♡</span><span>💬</span><span>↗</span><span class="save">▢</span></div>
+      <div class="caption">
+        <p><strong>sofia.reyes</strong>There is a very specific happiness in landing, checking in, and knowing exactly where your charger is.</p>
+        <p>Dubai hotel lobbies understand drama. Marble, flowers, soft lighting, and the kind of silence that makes you lower your voice.</p>
+        <p>First move after a long flight: shower, coffee, or room service?</p>
+        <p class="hashtags">#DubaiTravel #HotelLife #LuxuryTravel #TravelDiary #QuietLuxury #AirportToHotel #SoftLuxury #WomenWhoTravel #DubaiHotels #CreatorLife #SofiaReyes #TravelRoutine</p>
+        <div class="date">Draft post sof-005</div>
+      </div>
+    </article>
+
+    <article class="post">
+      <header class="post-header">
+        <img class="avatar" src="assets/faces/Sofia/sofia_006_monaco_harbor_blue_hour.png" alt="Sofia Reyes avatar">
+        <div class="profile"><div class="handle">sofia.reyes</div><div class="location">Monaco</div></div>
+        <div class="dots">...</div>
+      </header>
+      <img class="post-image" src="assets/faces/Sofia/sofia_006_monaco_harbor_blue_hour.png" alt="Sofia at Monaco harbor">
+      <div class="actions"><span>♡</span><span>💬</span><span>↗</span><span class="save">▢</span></div>
+      <div class="caption">
+        <p><strong>sofia.reyes</strong>Monaco at blue hour is basically a spreadsheet with better lighting.</p>
+        <p>Everything is polished, timed, expensive, and somehow still beautiful enough to make me forgive it.</p>
+        <p>Too polished, or exactly right?</p>
+        <p class="hashtags">#Monaco #LuxuryTravel #HarborViews #BlueHour #TravelDiary #QuietLuxury #SoftLuxury #WomenWhoTravel #EuropeanSummer #TravelStyle #SofiaReyes #WorthIt</p>
+        <div class="date">Draft post sof-006</div>
+      </div>
+    </article>
+
+    <article class="post">
+      <header class="post-header">
+        <img class="avatar" src="assets/faces/Sofia/sofia_007_mexico_city_cafe_breakfast.png" alt="Sofia Reyes avatar">
+        <div class="profile"><div class="handle">sofia.reyes</div><div class="location">Mexico City, Mexico</div></div>
+        <div class="dots">...</div>
+      </header>
+      <img class="post-image" src="assets/faces/Sofia/sofia_007_mexico_city_cafe_breakfast.png" alt="Sofia at a Mexico City cafe">
+      <div class="actions"><span>♡</span><span>💬</span><span>↗</span><span class="save">▢</span></div>
+      <div class="caption">
+        <p><strong>sofia.reyes</strong>Breakfast in Mexico City: iced coffee, fruit, plants everywhere, and one notebook pretending to be casual.</p>
+        <p>I love a city that makes mornings feel alive without trying too hard. Que rico, honestly.</p>
+        <p>Coffee first or fruit first?</p>
+        <p class="hashtags">#MexicoCity #CafeMorning #LuxuryTravel #TravelDiary #CDMX #WomenWhoTravel #SoftLuxury #CityTravel #BreakfastSpot #TravelLifestyle #SofiaReyes #CafeCulture</p>
+        <div class="date">Draft post sof-007</div>
+      </div>
+    </article>
+
+    <article class="post">
+      <header class="post-header">
+        <img class="avatar" src="assets/faces/Sofia/sofia_008_capri_wooden_boat.png" alt="Sofia Reyes avatar">
+        <div class="profile"><div class="handle">sofia.reyes</div><div class="location">Capri, Italy</div></div>
+        <div class="dots">...</div>
+      </header>
+      <img class="post-image" src="assets/faces/Sofia/sofia_008_capri_wooden_boat.png" alt="Sofia on a wooden boat in Capri">
+      <div class="actions"><span>♡</span><span>💬</span><span>↗</span><span class="save">▢</span></div>
+      <div class="caption">
+        <p><strong>sofia.reyes</strong>Capri from the water makes every plan feel flexible.</p>
+        <p>Which is funny, because mine was absolutely not. Boat time, lunch time, backup lunch time. I contain multitudes.</p>
+        <p>Boat day or long lunch?</p>
+        <p class="hashtags">#Capri #ItalyTravel #LuxuryTravel #BoatDay #TravelDiary #MediterraneanTravel #WomenWhoTravel #QuietLuxury #SoftLuxury #ItalianSummer #SofiaReyes #TravelStyle</p>
+        <div class="date">Draft post sof-008</div>
+      </div>
+    </article>
+
+    <article class="post">
+      <header class="post-header">
+        <img class="avatar" src="assets/faces/Sofia/sofia_009_ibiza_quiet_cove.png" alt="Sofia Reyes avatar">
+        <div class="profile"><div class="handle">sofia.reyes</div><div class="location">Ibiza, Spain</div></div>
+        <div class="dots">...</div>
+      </header>
+      <img class="post-image" src="assets/faces/Sofia/sofia_009_ibiza_quiet_cove.png" alt="Sofia at a quiet Ibiza cove">
+      <div class="actions"><span>♡</span><span>💬</span><span>↗</span><span class="save">▢</span></div>
+      <div class="caption">
+        <p><strong>sofia.reyes</strong>Ibiza is better when it whispers.</p>
+        <p>No chaos, no loud table, just rocks, blue water, and enough signal to confirm dinner without becoming a person who answers emails on vacation.</p>
+        <p>Quiet cove or rooftop dinner?</p>
+        <p class="hashtags">#Ibiza #QuietLuxury #LuxuryTravel #TravelDiary #IslandTravel #WomenWhoTravel #MediterraneanStyle #SoftLuxury #IbizaTravel #TravelLifestyle #SofiaReyes #HiddenSpots</p>
+        <div class="date">Draft post sof-009</div>
+      </div>
+    </article>
+
+    <article class="post">
+      <header class="post-header">
+        <img class="avatar" src="assets/faces/Sofia/sofia_010_miami_tech_breakfast_meeting.png" alt="Sofia Reyes avatar">
+        <div class="profile"><div class="handle">sofia.reyes</div><div class="location">Miami, Florida</div></div>
+        <div class="dots">...</div>
+      </header>
+      <img class="post-image" src="assets/faces/Sofia/sofia_010_miami_tech_breakfast_meeting.png" alt="Sofia at a Miami tech breakfast meeting">
+      <div class="actions"><span>♡</span><span>💬</span><span>↗</span><span class="save">▢</span></div>
+      <div class="caption">
+        <p><strong>sofia.reyes</strong>The part nobody posts: the laptop, the notes, the numbers.</p>
+        <p>Luxury is cute, but the logistics are the real personality test. I left finance and somehow still became the woman reviewing spreadsheets over espresso.</p>
+        <p>Is this the least glamorous post or the most honest one?</p>
+        <p class="hashtags">#MiamiBusiness #CreatorLife #LuxuryTravel #BehindTheScenes #WomenInBusiness #TravelLifestyle #QuietLuxury #SoftLuxury #DigitalCreator #FounderEnergy #SofiaReyes #WorkFromAnywhere</p>
+        <div class="date">Draft post sof-010</div>
+      </div>
+    </article>
+
+    <article class="post">
+      <header class="post-header">
+        <img class="avatar" src="assets/faces/Sofia/sofia_011_swiss_alps_chalet_low_angle.png" alt="Sofia Reyes avatar">
+        <div class="profile"><div class="handle">sofia.reyes</div><div class="location">Swiss Alps</div></div>
+        <div class="dots">...</div>
+      </header>
+      <img class="post-image" src="assets/faces/Sofia/sofia_011_swiss_alps_chalet_low_angle.png" alt="Sofia at a Swiss Alps chalet">
+      <div class="actions"><span>♡</span><span>💬</span><span>↗</span><span class="save">▢</span></div>
+      <div class="caption">
+        <p><strong>sofia.reyes</strong>The Alps make silence feel expensive.</p>
+        <p>Cold air, sharp light, and the kind of view that makes you stop pretending your phone needs checking. I lasted nine minutes. Progress.</p>
+        <p>Mountain silence or city noise?</p>
+        <p class="hashtags">#SwissAlps #LuxuryTravel #ChaletLife #WinterTravel #TravelDiary #QuietLuxury #SoftLuxury #WomenWhoTravel #MountainViews #TravelStyle #SofiaReyes #WorthTheCold</p>
+        <div class="date">Draft post sof-011</div>
+      </div>
+    </article>
+
+    <article class="post">
+      <header class="post-header">
+        <img class="avatar" src="assets/faces/Sofia/sofia_012_milan_fashion_week_crowd.png" alt="Sofia Reyes avatar">
+        <div class="profile"><div class="handle">sofia.reyes</div><div class="location">Milan, Italy</div></div>
+        <div class="dots">...</div>
+      </header>
+      <img class="post-image" src="assets/faces/Sofia/sofia_012_milan_fashion_week_crowd.png" alt="Sofia at Milan Fashion Week">
+      <div class="actions"><span>♡</span><span>💬</span><span>↗</span><span class="save">▢</span></div>
+      <div class="caption">
+        <p><strong>sofia.reyes</strong>Milan Fashion Week is controlled chaos with better coats.</p>
+        <p>Photographers, black cars, people pretending not to look at each other, and me silently calculating how many steps these shoes can survive.</p>
+        <p>Street style or front row?</p>
+        <p class="hashtags">#MilanFashionWeek #MilanStyle #LuxuryTravel #FashionWeek #StreetStyle #TravelDiary #WomenWhoTravel #QuietLuxury #SoftLuxury #ItalianStyle #SofiaReyes #FashionTravel</p>
+        <div class="date">Draft post sof-012</div>
+      </div>
+    </article>
+
+    <article class="post">
+      <header class="post-header">
+        <img class="avatar" src="assets/faces/Sofia/sofia_013_dubai_hotel_terrace_night.png" alt="Sofia Reyes avatar">
+        <div class="profile"><div class="handle">sofia.reyes</div><div class="location">Dubai, UAE</div></div>
+        <div class="dots">...</div>
+      </header>
+      <img class="post-image" src="assets/faces/Sofia/sofia_013_dubai_hotel_terrace_night.png" alt="Sofia at a Dubai hotel terrace at night">
+      <div class="actions"><span>♡</span><span>💬</span><span>↗</span><span class="save">▢</span></div>
+      <div class="caption">
+        <p><strong>sofia.reyes</strong>Dubai after dinner knows how to glow.</p>
+        <p>City lights, sparkling water, and a table far enough from the music to still hear yourself think. That is my definition of a good night, mi amor.</p>
+        <p>Dinner view or lobby people-watching after?</p>
+        <p class="hashtags">#DubaiNights #LuxuryTravel #HotelTerrace #TravelDiary #QuietLuxury #SoftLuxury #WomenWhoTravel #DubaiStyle #EveningLook #TravelLifestyle #SofiaReyes #DinnerViews</p>
+        <div class="date">Draft post sof-013</div>
+      </div>
+    </article>
+  </main>
+</body>
+</html>

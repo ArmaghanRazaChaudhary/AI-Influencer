@@ -1,0 +1,50 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Local media — faces, generated posts, references (never publish)
+assets/faces/**
+!assets/faces/README.md
+assets/output/
+assets/references/
+dashboard/assets/faces/
+deploy/**/assets/faces/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.ico
+*.bmp
+!docs/**
+
+# Runtime / DB
+pipeline.db
+*.log
+db/*.db
+
+# Browser / agent local state
+.chatgpt_profile/
+.chatgpt_cookies.json
+.claude/
+.claude/settings.local.json
+
+# Internal / local-only
+Specifications/
+sofia_posts_preview.html
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

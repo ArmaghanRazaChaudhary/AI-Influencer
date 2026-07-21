@@ -1,0 +1,806 @@
+{
+  "count": 100,
+  "created_at": "2026-06-04",
+  "personas": [
+    {
+      "persona_id": "avery_stone",
+      "name": "Avery Stone",
+      "age": 28,
+      "gender": "nonbinary",
+      "base": "Austin, TX",
+      "niche": "indie game design and cozy devlogs"
+    },
+    {
+      "persona_id": "noor_haddad",
+      "name": "Noor Haddad",
+      "age": 34,
+      "gender": "female",
+      "base": "Dubai, UAE",
+      "niche": "architecture, interiors, and quiet luxury design"
+    },
+    {
+      "persona_id": "kai_mercer",
+      "name": "Kai Mercer",
+      "age": 30,
+      "gender": "male",
+      "base": "Vancouver, Canada",
+      "niche": "trail running, recovery, and mountain discipline"
+    },
+    {
+      "persona_id": "leila_voss",
+      "name": "Leila Voss",
+      "age": 25,
+      "gender": "female",
+      "base": "Berlin, Germany",
+      "niche": "underground art, analog photography, and night culture"
+    },
+    {
+      "persona_id": "mateo_cruz",
+      "name": "Mateo Cruz",
+      "age": 32,
+      "gender": "male",
+      "base": "Mexico City, Mexico",
+      "niche": "street food, neighborhood history, and urban walking"
+    },
+    {
+      "persona_id": "priya_raman",
+      "name": "Priya Raman",
+      "age": 29,
+      "gender": "female",
+      "base": "Bengaluru, India",
+      "niche": "AI product management and mindful career design"
+    },
+    {
+      "persona_id": "river_lang",
+      "name": "River Lang",
+      "age": 27,
+      "gender": "nonbinary",
+      "base": "Portland, OR",
+      "niche": "sustainable fashion, thrift repair, and capsule wardrobes"
+    },
+    {
+      "persona_id": "imani_brooks",
+      "name": "Imani Brooks",
+      "age": 36,
+      "gender": "female",
+      "base": "Atlanta, GA",
+      "niche": "home cooking, family tables, and modern soul food"
+    },
+    {
+      "persona_id": "ethan_vale",
+      "name": "Ethan Vale",
+      "age": 41,
+      "gender": "male",
+      "base": "London, UK",
+      "niche": "men's tailoring, etiquette, and modern fatherhood"
+    },
+    {
+      "persona_id": "sana_qureshi",
+      "name": "Sana Qureshi",
+      "age": 24,
+      "gender": "female",
+      "base": "Lahore, Pakistan",
+      "niche": "book culture, poetry, and old-city cafes"
+    },
+    {
+      "persona_id": "jonas_reed",
+      "name": "Jonas Reed",
+      "age": 33,
+      "gender": "male",
+      "base": "Copenhagen, Denmark",
+      "niche": "slow cycling, urban planning, and functional design"
+    },
+    {
+      "persona_id": "mara_okafor",
+      "name": "Mara Okafor",
+      "age": 30,
+      "gender": "female",
+      "base": "Lagos, Nigeria",
+      "niche": "Afrobeats culture, creative business, and city style"
+    },
+    {
+      "persona_id": "theo_nakamura",
+      "name": "Theo Nakamura",
+      "age": 26,
+      "gender": "male",
+      "base": "Tokyo, Japan",
+      "niche": "street photography, trains, and quiet city moments"
+    },
+    {
+      "persona_id": "clara_bennett",
+      "name": "Clara Bennett",
+      "age": 38,
+      "gender": "female",
+      "base": "Charleston, SC",
+      "niche": "gardens, antiques, and coastal home restoration"
+    },
+    {
+      "persona_id": "omar_el_sayed",
+      "name": "Omar El-Sayed",
+      "age": 35,
+      "gender": "male",
+      "base": "Cairo, Egypt",
+      "niche": "ancient history, modern Cairo, and museum storytelling"
+    },
+    {
+      "persona_id": "tessa_wu",
+      "name": "Tessa Wu",
+      "age": 23,
+      "gender": "female",
+      "base": "Taipei, Taiwan",
+      "niche": "night markets, stationery, and tiny apartment life"
+    },
+    {
+      "persona_id": "malik_ford",
+      "name": "Malik Ford",
+      "age": 39,
+      "gender": "male",
+      "base": "Detroit, MI",
+      "niche": "classic cars, restoration, and blue-collar entrepreneurship"
+    },
+    {
+      "persona_id": "anouk_petit",
+      "name": "Anouk Petit",
+      "age": 27,
+      "gender": "female",
+      "base": "Montreal, Canada",
+      "niche": "pastry, cafe culture, and small business diaries"
+    },
+    {
+      "persona_id": "dante_rossi",
+      "name": "Dante Rossi",
+      "age": 29,
+      "gender": "male",
+      "base": "Rome, Italy",
+      "niche": "menswear, espresso, and old Roman routines"
+    },
+    {
+      "persona_id": "nia_sol",
+      "name": "Nia Sol",
+      "age": 22,
+      "gender": "female",
+      "base": "San Juan, Puerto Rico",
+      "niche": "surf mornings, island music, and climate-conscious living"
+    },
+    {
+      "persona_id": "aria_wells",
+      "name": "Aria Wells",
+      "age": 28,
+      "gender": "female",
+      "base": "Nashville, TN",
+      "niche": "songwriting, vintage instruments, and quiet tour life"
+    },
+    {
+      "persona_id": "kenji_park",
+      "name": "Kenji Park",
+      "age": 37,
+      "gender": "male",
+      "base": "Seoul, South Korea",
+      "niche": "coffee roasting and sensory craft"
+    },
+    {
+      "persona_id": "zara_mbatha",
+      "name": "Zara Mbatha",
+      "age": 26,
+      "gender": "female",
+      "base": "Cape Town, South Africa",
+      "niche": "ocean conservation and freedive training"
+    },
+    {
+      "persona_id": "hugo_laurent",
+      "name": "Hugo Laurent",
+      "age": 45,
+      "gender": "male",
+      "base": "Paris, France",
+      "niche": "wine education without snobbery"
+    },
+    {
+      "persona_id": "maya_torres",
+      "name": "Maya Torres",
+      "age": 33,
+      "gender": "female",
+      "base": "Los Angeles, CA",
+      "niche": "film editing and behind-the-scenes cinema"
+    },
+    {
+      "persona_id": "rafi_cohen",
+      "name": "Rafi Cohen",
+      "age": 31,
+      "gender": "male",
+      "base": "Tel Aviv, Israel",
+      "niche": "mediterranean home cooking and market life"
+    },
+    {
+      "persona_id": "elena_markovic",
+      "name": "Elena Markovic",
+      "age": 40,
+      "gender": "female",
+      "base": "Belgrade, Serbia",
+      "niche": "classical piano, discipline, and adult learning"
+    },
+    {
+      "persona_id": "samir_khan",
+      "name": "Samir Khan",
+      "age": 24,
+      "gender": "male",
+      "base": "Karachi, Pakistan",
+      "niche": "street cricket, sneakers, and youth culture"
+    },
+    {
+      "persona_id": "bianca_moretti",
+      "name": "Bianca Moretti",
+      "age": 35,
+      "gender": "female",
+      "base": "Milan, Italy",
+      "niche": "beauty chemistry and ingredient literacy"
+    },
+    {
+      "persona_id": "isaac_mensah",
+      "name": "Isaac Mensah",
+      "age": 29,
+      "gender": "male",
+      "base": "Accra, Ghana",
+      "niche": "streetwear, textile history, and creative direction"
+    },
+    {
+      "persona_id": "lina_hoffmann",
+      "name": "Lina Hoffmann",
+      "age": 32,
+      "gender": "female",
+      "base": "Vienna, Austria",
+      "niche": "opera, museums, and solo city dates"
+    },
+    {
+      "persona_id": "jules_carter",
+      "name": "Jules Carter",
+      "age": 27,
+      "gender": "male",
+      "base": "Brooklyn, NY",
+      "niche": "ceramics, studio work, and imperfect objects"
+    },
+    {
+      "persona_id": "rhea_singh",
+      "name": "Rhea Singh",
+      "age": 26,
+      "gender": "female",
+      "base": "Singapore",
+      "niche": "finance literacy for creative freelancers"
+    },
+    {
+      "persona_id": "marco_silva",
+      "name": "Marco Silva",
+      "age": 34,
+      "gender": "male",
+      "base": "Lisbon, Portugal",
+      "niche": "surfboard shaping and coastal craft"
+    },
+    {
+      "persona_id": "aisha_bell",
+      "name": "Aisha Bell",
+      "age": 30,
+      "gender": "female",
+      "base": "New Orleans, LA",
+      "niche": "jazz bars, hospitality, and city memory"
+    },
+    {
+      "persona_id": "felix_grant",
+      "name": "Felix Grant",
+      "age": 42,
+      "gender": "male",
+      "base": "Edinburgh, Scotland",
+      "niche": "rare books and literary travel"
+    },
+    {
+      "persona_id": "aya_benali",
+      "name": "Aya Benali",
+      "age": 25,
+      "gender": "female",
+      "base": "Casablanca, Morocco",
+      "niche": "modest fashion, city cafes, and family style"
+    },
+    {
+      "persona_id": "lucas_chen",
+      "name": "Lucas Chen",
+      "age": 28,
+      "gender": "male",
+      "base": "San Francisco, CA",
+      "niche": "robotics demos and humane automation"
+    },
+    {
+      "persona_id": "mila_novak",
+      "name": "Mila Novak",
+      "age": 23,
+      "gender": "female",
+      "base": "Prague, Czechia",
+      "niche": "hostel travel, postcards, and budget aesthetics"
+    },
+    {
+      "persona_id": "andre_costa",
+      "name": "Andre Costa",
+      "age": 36,
+      "gender": "male",
+      "base": "Rio de Janeiro, Brazil",
+      "niche": "capoeira, mobility, and beach city rhythm"
+    },
+    {
+      "persona_id": "alina_brooks",
+      "name": "Alina Brooks",
+      "age": 22,
+      "gender": "female",
+      "base": "Dublin, Ireland",
+      "niche": "urban beekeeping and rooftop ecology"
+    },
+    {
+      "persona_id": "marcus_hale",
+      "name": "Marcus Hale",
+      "age": 29,
+      "gender": "male",
+      "base": "Madrid, Spain",
+      "niche": "accessible fitness for desk workers"
+    },
+    {
+      "persona_id": "yara_kim",
+      "name": "Yara Kim",
+      "age": 36,
+      "gender": "nonbinary",
+      "base": "Melbourne, Australia",
+      "niche": "tea culture and quiet hosting"
+    },
+    {
+      "persona_id": "diego_santos",
+      "name": "Diego Santos",
+      "age": 43,
+      "gender": "male",
+      "base": "Toronto, Canada",
+      "niche": "language learning and immigrant humor"
+    },
+    {
+      "persona_id": "freya_rivers",
+      "name": "Freya Rivers",
+      "age": 26,
+      "gender": "female",
+      "base": "Oslo, Norway",
+      "niche": "wildlife sketching and field notebooks"
+    },
+    {
+      "persona_id": "miko_ito",
+      "name": "Miko Ito",
+      "age": 33,
+      "gender": "nonbinary",
+      "base": "Helsinki, Finland",
+      "niche": "solo van renovation and practical travel"
+    },
+    {
+      "persona_id": "celine_gray",
+      "name": "Celine Gray",
+      "age": 40,
+      "gender": "female",
+      "base": "Buenos Aires, Argentina",
+      "niche": "home audio and vinyl listening rooms"
+    },
+    {
+      "persona_id": "tariq_rahman",
+      "name": "Tariq Rahman",
+      "age": 23,
+      "gender": "male",
+      "base": "Kuala Lumpur, Malaysia",
+      "niche": "community gardening and food justice"
+    },
+    {
+      "persona_id": "iris_morel",
+      "name": "Iris Morel",
+      "age": 30,
+      "gender": "female",
+      "base": "Doha, Qatar",
+      "niche": "minimal parenting and toy rotation"
+    },
+    {
+      "persona_id": "dev_hayes",
+      "name": "Dev Hayes",
+      "age": 37,
+      "gender": "nonbinary",
+      "base": "Warsaw, Poland",
+      "niche": "board games and social strategy"
+    },
+    {
+      "persona_id": "nadia_baird",
+      "name": "Nadia Baird",
+      "age": 44,
+      "gender": "female",
+      "base": "Dublin, Ireland",
+      "niche": "urban beekeeping and rooftop ecology"
+    },
+    {
+      "persona_id": "otto_lin",
+      "name": "Otto Lin",
+      "age": 27,
+      "gender": "male",
+      "base": "Madrid, Spain",
+      "niche": "accessible fitness for desk workers"
+    },
+    {
+      "persona_id": "selene_adebayo",
+      "name": "Selene Adebayo",
+      "age": 34,
+      "gender": "nonbinary",
+      "base": "Melbourne, Australia",
+      "niche": "tea culture and quiet hosting"
+    },
+    {
+      "persona_id": "julian_frost",
+      "name": "Julian Frost",
+      "age": 41,
+      "gender": "male",
+      "base": "Toronto, Canada",
+      "niche": "language learning and immigrant humor"
+    },
+    {
+      "persona_id": "mei_tan",
+      "name": "Mei Tan",
+      "age": 24,
+      "gender": "female",
+      "base": "Oslo, Norway",
+      "niche": "wildlife sketching and field notebooks"
+    },
+    {
+      "persona_id": "cass_keller",
+      "name": "Cass Keller",
+      "age": 31,
+      "gender": "nonbinary",
+      "base": "Helsinki, Finland",
+      "niche": "solo van renovation and practical travel"
+    },
+    {
+      "persona_id": "ronan_marin",
+      "name": "Ronan Marin",
+      "age": 38,
+      "gender": "male",
+      "base": "Buenos Aires, Argentina",
+      "niche": "home audio and vinyl listening rooms"
+    },
+    {
+      "persona_id": "farah_shah",
+      "name": "Farah Shah",
+      "age": 45,
+      "gender": "female",
+      "base": "Kuala Lumpur, Malaysia",
+      "niche": "community gardening and food justice"
+    },
+    {
+      "persona_id": "leon_okoye",
+      "name": "Leon Okoye",
+      "age": 28,
+      "gender": "male",
+      "base": "Doha, Qatar",
+      "niche": "minimal parenting and toy rotation"
+    },
+    {
+      "persona_id": "anika_vega",
+      "name": "Anika Vega",
+      "age": 35,
+      "gender": "female",
+      "base": "Warsaw, Poland",
+      "niche": "board games and social strategy"
+    },
+    {
+      "persona_id": "maya_quinn",
+      "name": "Maya Quinn",
+      "age": 42,
+      "gender": "female",
+      "base": "Dublin, Ireland",
+      "niche": "urban beekeeping and rooftop ecology"
+    },
+    {
+      "persona_id": "arlo_bennett",
+      "name": "Arlo Bennett",
+      "age": 25,
+      "gender": "male",
+      "base": "Madrid, Spain",
+      "niche": "accessible fitness for desk workers"
+    },
+    {
+      "persona_id": "hana_silva",
+      "name": "Hana Silva",
+      "age": 32,
+      "gender": "nonbinary",
+      "base": "Melbourne, Australia",
+      "niche": "tea culture and quiet hosting"
+    },
+    {
+      "persona_id": "ezra_coleman",
+      "name": "Ezra Coleman",
+      "age": 39,
+      "gender": "male",
+      "base": "Toronto, Canada",
+      "niche": "language learning and immigrant humor"
+    },
+    {
+      "persona_id": "rina_patel",
+      "name": "Rina Patel",
+      "age": 22,
+      "gender": "female",
+      "base": "Oslo, Norway",
+      "niche": "wildlife sketching and field notebooks"
+    },
+    {
+      "persona_id": "tomas_adler",
+      "name": "Tomas Adler",
+      "age": 29,
+      "gender": "male",
+      "base": "Helsinki, Finland",
+      "niche": "solo van renovation and practical travel"
+    },
+    {
+      "persona_id": "lena_costa",
+      "name": "Lena Costa",
+      "age": 36,
+      "gender": "female",
+      "base": "Buenos Aires, Argentina",
+      "niche": "home audio and vinyl listening rooms"
+    },
+    {
+      "persona_id": "kian_wallace",
+      "name": "Kian Wallace",
+      "age": 43,
+      "gender": "nonbinary",
+      "base": "Kuala Lumpur, Malaysia",
+      "niche": "community gardening and food justice"
+    },
+    {
+      "persona_id": "mira_hassan",
+      "name": "Mira Hassan",
+      "age": 26,
+      "gender": "female",
+      "base": "Doha, Qatar",
+      "niche": "minimal parenting and toy rotation"
+    },
+    {
+      "persona_id": "felix_ward",
+      "name": "Felix Ward",
+      "age": 33,
+      "gender": "male",
+      "base": "Warsaw, Poland",
+      "niche": "board games and social strategy"
+    },
+    {
+      "persona_id": "nora_castillo",
+      "name": "Nora Castillo",
+      "age": 40,
+      "gender": "female",
+      "base": "Dublin, Ireland",
+      "niche": "urban beekeeping and rooftop ecology"
+    },
+    {
+      "persona_id": "ari_choi",
+      "name": "Ari Choi",
+      "age": 23,
+      "gender": "nonbinary",
+      "base": "Madrid, Spain",
+      "niche": "accessible fitness for desk workers"
+    },
+    {
+      "persona_id": "elio_bryant",
+      "name": "Elio Bryant",
+      "age": 30,
+      "gender": "male",
+      "base": "Melbourne, Australia",
+      "niche": "tea culture and quiet hosting"
+    },
+    {
+      "persona_id": "saira_malik",
+      "name": "Saira Malik",
+      "age": 37,
+      "gender": "female",
+      "base": "Toronto, Canada",
+      "niche": "language learning and immigrant humor"
+    },
+    {
+      "persona_id": "theo_palmer",
+      "name": "Theo Palmer",
+      "age": 44,
+      "gender": "male",
+      "base": "Oslo, Norway",
+      "niche": "wildlife sketching and field notebooks"
+    },
+    {
+      "persona_id": "vera_nguyen",
+      "name": "Vera Nguyen",
+      "age": 27,
+      "gender": "female",
+      "base": "Helsinki, Finland",
+      "niche": "solo van renovation and practical travel"
+    },
+    {
+      "persona_id": "malik_rhodes",
+      "name": "Malik Rhodes",
+      "age": 34,
+      "gender": "male",
+      "base": "Buenos Aires, Argentina",
+      "niche": "home audio and vinyl listening rooms"
+    },
+    {
+      "persona_id": "ines_duarte",
+      "name": "Ines Duarte",
+      "age": 41,
+      "gender": "nonbinary",
+      "base": "Kuala Lumpur, Malaysia",
+      "niche": "community gardening and food justice"
+    },
+    {
+      "persona_id": "jonah_pierce",
+      "name": "Jonah Pierce",
+      "age": 24,
+      "gender": "male",
+      "base": "Doha, Qatar",
+      "niche": "minimal parenting and toy rotation"
+    },
+    {
+      "persona_id": "amina_cole",
+      "name": "Amina Cole",
+      "age": 31,
+      "gender": "female",
+      "base": "Warsaw, Poland",
+      "niche": "board games and social strategy"
+    },
+    {
+      "persona_id": "luca_farrow",
+      "name": "Luca Farrow",
+      "age": 38,
+      "gender": "male",
+      "base": "Dublin, Ireland",
+      "niche": "urban beekeeping and rooftop ecology"
+    },
+    {
+      "persona_id": "talia_novak",
+      "name": "Talia Novak",
+      "age": 45,
+      "gender": "female",
+      "base": "Madrid, Spain",
+      "niche": "accessible fitness for desk workers"
+    },
+    {
+      "persona_id": "soren_blake",
+      "name": "Soren Blake",
+      "age": 28,
+      "gender": "nonbinary",
+      "base": "Melbourne, Australia",
+      "niche": "tea culture and quiet hosting"
+    },
+    {
+      "persona_id": "noemi_cruz",
+      "name": "Noemi Cruz",
+      "age": 35,
+      "gender": "female",
+      "base": "Toronto, Canada",
+      "niche": "language learning and immigrant humor"
+    },
+    {
+      "persona_id": "ilya_stone",
+      "name": "Ilya Stone",
+      "age": 42,
+      "gender": "male",
+      "base": "Oslo, Norway",
+      "niche": "wildlife sketching and field notebooks"
+    },
+    {
+      "persona_id": "rosa_vidal",
+      "name": "Rosa Vidal",
+      "age": 25,
+      "gender": "female",
+      "base": "Helsinki, Finland",
+      "niche": "solo van renovation and practical travel"
+    },
+    {
+      "persona_id": "micah_dean",
+      "name": "Micah Dean",
+      "age": 32,
+      "gender": "male",
+      "base": "Buenos Aires, Argentina",
+      "niche": "home audio and vinyl listening rooms"
+    },
+    {
+      "persona_id": "keiko_hart",
+      "name": "Keiko Hart",
+      "age": 39,
+      "gender": "nonbinary",
+      "base": "Kuala Lumpur, Malaysia",
+      "niche": "community gardening and food justice"
+    },
+    {
+      "persona_id": "darius_flynn",
+      "name": "Darius Flynn",
+      "age": 22,
+      "gender": "male",
+      "base": "Doha, Qatar",
+      "niche": "minimal parenting and toy rotation"
+    },
+    {
+      "persona_id": "livia_park",
+      "name": "Livia Park",
+      "age": 29,
+      "gender": "female",
+      "base": "Warsaw, Poland",
+      "niche": "board games and social strategy"
+    },
+    {
+      "persona_id": "amos_wright",
+      "name": "Amos Wright",
+      "age": 36,
+      "gender": "male",
+      "base": "Dublin, Ireland",
+      "niche": "urban beekeeping and rooftop ecology"
+    },
+    {
+      "persona_id": "zadie_moore",
+      "name": "Zadie Moore",
+      "age": 43,
+      "gender": "female",
+      "base": "Madrid, Spain",
+      "niche": "accessible fitness for desk workers"
+    },
+    {
+      "persona_id": "niko_reyes",
+      "name": "Niko Reyes",
+      "age": 26,
+      "gender": "nonbinary",
+      "base": "Melbourne, Australia",
+      "niche": "tea culture and quiet hosting"
+    },
+    {
+      "persona_id": "leona_price",
+      "name": "Leona Price",
+      "age": 33,
+      "gender": "female",
+      "base": "Toronto, Canada",
+      "niche": "language learning and immigrant humor"
+    },
+    {
+      "persona_id": "ravi_fox",
+      "name": "Ravi Fox",
+      "age": 40,
+      "gender": "male",
+      "base": "Oslo, Norway",
+      "niche": "wildlife sketching and field notebooks"
+    },
+    {
+      "persona_id": "maren_ellis",
+      "name": "Maren Ellis",
+      "age": 23,
+      "gender": "female",
+      "base": "Helsinki, Finland",
+      "niche": "solo van renovation and practical travel"
+    },
+    {
+      "persona_id": "eli_navarro",
+      "name": "Eli Navarro",
+      "age": 30,
+      "gender": "male",
+      "base": "Buenos Aires, Argentina",
+      "niche": "home audio and vinyl listening rooms"
+    },
+    {
+      "persona_id": "nina_clarke",
+      "name": "Nina Clarke",
+      "age": 37,
+      "gender": "female",
+      "base": "Kuala Lumpur, Malaysia",
+      "niche": "community gardening and food justice"
+    },
+    {
+      "persona_id": "sasha_king",
+      "name": "Sasha King",
+      "age": 44,
+      "gender": "nonbinary",
+      "base": "Doha, Qatar",
+      "niche": "minimal parenting and toy rotation"
+    },
+    {
+      "persona_id": "tara_wells",
+      "name": "Tara Wells",
+      "age": 27,
+      "gender": "female",
+      "base": "Warsaw, Poland",
+      "niche": "board games and social strategy"
+    }
+  ]
+}

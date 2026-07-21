@@ -1,0 +1,43 @@
+{
+  "persona_id": "sofia_reyes",
+  "name": "Sofia Reyes",
+  "version": "0.1.0",
+  "line": "N",
+  "niche": "travel_luxury",
+  "status": "in_progress",
+  "package": {
+    "persona": "personas/sofia_reyes/persona.md",
+    "voice": "personas/sofia_reyes/voice.md",
+    "visual": "personas/sofia_reyes/visual.md",
+    "memory_boundaries": "personas/sofia_reyes/memory_boundaries.md",
+    "content_backlog": "personas/sofia_reyes/content_backlog.md",
+    "brain": "personas/sofia_reyes/brain.md"
+  },
+  "assets": {
+    "seed_face": "assets/faces/face1.jpeg",
+    "reference_set": "assets/faces/Sofia/",
+    "lora": "assets/lora/sofia_reyes/sofia_reyes.safetensors",
+    "lora_trigger": "sofiareyes_face",
+    "voice_samples": "assets/voice/sofia_reyes/"
+  },
+  "face_lock": {
+    "engine": "flux2+lora",
+    "trained": false,
+    "seed": null,
+    "acceptance_test": "post 1 and post 847 are the same person",
+    "acceptance_passed": false
+  },
+  "approval_state": "draft",
+  "destinations": {
+    "instagram": null,
+    "tiktok": null,
+    "youtube": null,
+    "fanvue": null
+  },
+  "compliance": {
+    "ftc_disclosure": true,
+    "ai_character_disclosed_in_bio": true
+  },
+  "handoff_ready": false,
+  "last_updated": "2026-06-03"
+}

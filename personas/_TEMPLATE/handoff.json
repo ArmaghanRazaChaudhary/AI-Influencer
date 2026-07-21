@@ -1,0 +1,43 @@
+{
+  "persona_id": "{{persona_id}}",
+  "name": "{{NAME}}",
+  "version": "0.1.0",
+  "line": "{{N|S|A}}",
+  "niche": "{{niche}}",
+  "status": "in_progress",
+  "package": {
+    "persona": "personas/{{persona_id}}/persona.md",
+    "voice": "personas/{{persona_id}}/voice.md",
+    "visual": "personas/{{persona_id}}/visual.md",
+    "memory_boundaries": "personas/{{persona_id}}/memory_boundaries.md",
+    "content_backlog": "personas/{{persona_id}}/content_backlog.md",
+    "brain": "personas/{{persona_id}}/brain.md"
+  },
+  "assets": {
+    "seed_face": "assets/faces/{{seed}}.jpeg",
+    "reference_set": "assets/faces/{{Name}}/",
+    "lora": "assets/lora/{{persona_id}}/{{persona_id}}.safetensors",
+    "lora_trigger": "{{trigger}}",
+    "voice_samples": "assets/voice/{{persona_id}}/"
+  },
+  "face_lock": {
+    "engine": "flux2+lora",
+    "trained": false,
+    "seed": null,
+    "acceptance_test": "post 1 and post 847 are the same person",
+    "acceptance_passed": false
+  },
+  "approval_state": "draft",
+  "destinations": {
+    "instagram": null,
+    "tiktok": null,
+    "youtube": null,
+    "fanvue": null
+  },
+  "compliance": {
+    "ftc_disclosure": true,
+    "ai_character_disclosed_in_bio": true
+  },
+  "handoff_ready": false,
+  "last_updated": "{{YYYY-MM-DD}}"
+}

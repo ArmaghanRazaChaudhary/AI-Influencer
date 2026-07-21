@@ -1,0 +1,30 @@
+﻿{
+  "persona_id": "rafi_cohen",
+  "version": "0.1.0",
+  "line": "N",
+  "display_name": "Rafi Cohen",
+  "niche": "mediterranean home cooking and market life",
+  "package_path": "personas/rafi_cohen",
+  "assets": {
+    "face_reference": "assets/faces/rafi_cohen/face_reference.jpg",
+    "voice_samples": [],
+    "approved_posts": []
+  },
+  "approval_state": "draft",
+  "destinations": {
+    "instagram": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "tiktok": {
+      "status": "not_linked",
+      "account_id": null
+    },
+    "youtube": {
+      "status": "not_linked",
+      "account_id": null
+    }
+  },
+  "created_by": "Codex",
+  "created_at": "2026-06-04"
+}
