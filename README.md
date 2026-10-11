@@ -25,8 +25,8 @@ Approved handoff package → (external) SNS Orchestrator
 | **Character packages** | Folder-per-persona: `persona.md`, `voice.md`, `visual.md`, `memory_boundaries.md`, `content_backlog.md`, `handoff.json` |
 | **Persona factory** | Template + batch tooling to scale from 1 → N fictional influencers |
 | **Content director** | Decides today’s scene / mood / prompt from the package |
-| **Image generation** | Face-consistent stills via OpenAI `gpt-image-1` (configurable backend) |
-| **Video (optional)** | Animate stills with Higgsfield; ffmpeg post-process + metadata strip |
+| **Image generation** | Face-consistent stills via OpenAI `gpt-image-1` or [LivePair](https://livepairai.com) i2i (configurable backend) |
+| **Video (optional)** | Animate stills with Higgsfield or LivePair i2v; ffmpeg post-process + metadata strip |
 | **Captions** | Anthropic in the persona’s voice |
 | **Dashboard UI** | Browse personas and factory output (`dashboard/`) |
 | **SQLite job log** | Track generation jobs locally |
