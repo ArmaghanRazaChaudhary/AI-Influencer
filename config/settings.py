@@ -39,8 +39,19 @@ for d in [OUTPUT_DIR, RAW_DIR, FINAL_DIR, FACES_DIR, REFERENCES_DIR]:
 # Pipeline behaviour
 NICHE = os.getenv("NICHE", "anime_girl")
 POSTS_PER_DAY = int(os.getenv("POSTS_PER_DAY", 3))
-# Image generation backend: "api" (OpenAI gpt-image-1) or "chatgpt" (web UI via Playwright)
+# Image generation backend: "api" (OpenAI gpt-image-1), "chatgpt" (web UI via
+# Playwright), or "livepair" (LivePair i2i — keeps the persona face across scenes)
 IMAGE_BACKEND = os.getenv("IMAGE_BACKEND", "api")
+
+# LivePair (livepairai.com) — prepaid per-result image/video generation.
+# Create a key at https://livepairai.com/settings (billed per result, no sub).
+LIVEPAIR_API_KEY = os.getenv("LP_KEY", "")
+LIVEPAIR_BASE_URL = os.getenv("LIVEPAIR_BASE_URL", "https://livepairai.com").rstrip("/")
+LIVEPAIR_IMAGE_MODEL = os.getenv("LIVEPAIR_IMAGE_MODEL", "qwen-image-3-edit")
+LIVEPAIR_VIDEO_MODEL = os.getenv("LIVEPAIR_VIDEO_MODEL", "wan-3.0-i2v")
+
+# Video generation backend: "higgsfield" (default) or "livepair"
+VIDEO_BACKEND = os.getenv("VIDEO_BACKEND", "higgsfield")
 
 # Post-processing defaults (from the guide)
 POSTPROCESS = {

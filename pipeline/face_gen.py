@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 """
-Scene image generation — supports two backends:
-  - "api"     : OpenAI gpt-image-1 (default, pay per image)
-  - "chatgpt" : ChatGPT web UI via Playwright (uses subscription, no per-image cost)
+Scene image generation — supports three backends:
+  - "api"      : OpenAI gpt-image-1 (default, pay per image)
+  - "chatgpt"  : ChatGPT web UI via Playwright (uses subscription, no per-image cost)
+  - "livepair" : LivePair i2i edit (keeps the persona face across scenes,
+                 per-result credits — set LP_KEY in .env)
 
 Set IMAGE_BACKEND in .env to switch.
 """
@@ -83,12 +85,19 @@ def create_first_frame(
     Routes to the active backend:
       IMAGE_BACKEND=api      → OpenAI gpt-image-1 (default)
       IMAGE_BACKEND=chatgpt  → ChatGPT web UI via Playwright
+      IMAGE_BACKEND=livepair → LivePair i2i edit
     """
     if IMAGE_BACKEND == "chatgpt":
         from pipeline.chatgpt_image_gen import generate_image
         # Use the scene prompt directly — chatgpt_image_gen handles identity wrapping
         scene = prompt if prompt != _FIRST_FRAME_PROMPT else "A natural, candid lifestyle portrait."
         return generate_image(scene, face_path, output_name)
+
+    if IMAGE_BACKEND == "livepair":
+        from pipeline.livepair_gen import generate_scene_image
+        # i2i models take the identity instruction in-prompt like gpt-image-1 edits
+        full_prompt = prompt if prompt == _FIRST_FRAME_PROMPT else _IDENTITY_PREFIX + prompt + _IDENTITY_SUFFIX
+        return generate_scene_image(full_prompt, face_path, output_name)
 
     # --- OpenAI API backend ---
     face_path = Path(face_path)

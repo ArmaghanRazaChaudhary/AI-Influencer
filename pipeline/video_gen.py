@@ -37,9 +37,18 @@ def generate_video(
     output_name: str | None = None,
 ) -> Path:
     """
-    Animate a static image into a short video using Higgsfield.
-    Returns path to the downloaded raw video.
+    Animate a static image into a short video.
+
+    Routes to the active backend:
+      VIDEO_BACKEND=higgsfield → Higgsfield motion presets (default)
+      VIDEO_BACKEND=livepair   → LivePair i2v — clip inherits the persona's face
     """
+    from config.settings import VIDEO_BACKEND
+
+    if VIDEO_BACKEND == "livepair":
+        from pipeline.livepair_gen import generate_video as lp_video
+        return lp_video(first_frame_path, prompt, output_name)
+
     first_frame_path = Path(first_frame_path)
 
     # Upload image to Higgsfield CDN
